@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/iobtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="40dp"
+        android:text="printf"
+     />
+
+    <Button
+        android:id="@+id/iobtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="168dp"
+        android:layout_y="40dp"
+        
+        android:text="scanf" />
+
+    <EditText
+        android:id="@+id/iotxt"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_x="-1dp"
+        android:layout_y="186dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-4dp"
+        android:layout_y="94dp"
+        android:text="integer" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="95dp"
+        android:text="char" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="96dp"
+        android:text="double" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="125dp"
+        android:text="string" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="128dp"
+        android:text="float" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="10dp"
+        android:text="Input and Output"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/iors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="356dp"
+        android:text="reset all" />
+
+    <Button
+        android:id="@+id/iod"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="359dp"
+        android:text="done" />
+
+</AbsoluteLayout>

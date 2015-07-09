@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="133dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button3"
+        android:text="DONE" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="RESET" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_toLeftOf="@+id/button2"
+        android:text="check" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/math"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="Select the Header files"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/con"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView1"
+        android:layout_toRightOf="@+id/button1"
+        android:text="conio.h" />
+
+    <CheckBox
+        android:id="@+id/std"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/con"
+        android:layout_below="@+id/con"
+        android:text="stdio.h" />
+
+    <CheckBox
+        android:id="@+id/str"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/std"
+        android:layout_below="@+id/std"
+        android:text="string.h" />
+
+    <CheckBox
+        android:id="@+id/math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/str"
+        android:layout_below="@+id/str"
+        android:text="math.h" />
+
+</RelativeLayout>
